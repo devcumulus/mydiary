@@ -1,17 +1,17 @@
 import React from "react";
-import styled from "@emotion/styled";
 
+import { TopBar } from "../styles/headerstyle";
 const Header = () => {
   return (
-    <div className="layout">
-      <div className="wrap">
-        <Header></Header>
-
-        <Contents>중심 컨텐츠</Contents>
-
-        <Footer></Footer>
-      </div>
-    </div>
+    <TopBar>
+      <button>
+        <img src="images/bt_list.svg" />
+      </button>
+      <h2>타이틀</h2>
+      <button>
+        <img src="images/bt_login.svg" />
+      </button>
+    </TopBar>
   );
 };
 
